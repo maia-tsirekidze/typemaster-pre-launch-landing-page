@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+
+
+body{
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+
+.wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 39px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    background-color: #F16718;
+    padding-left: 2px;
+    padding-top: 2px;
+    color: white;
+}
+.but{
+    width: 175px;
+    height: 58px;
+    background-color: #E8EFF2;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all;
+}
+.but:hover{
+    background-color: #162542;
+    color: white;
+}
+
+
+
+/* section */
+.conteiner{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+.wrap-text{
+    width: 445px;
+
+}
+.wrap-text h1{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 900;
+font-size: 56px;
+line-height: 56px;
+/* or 100% */
+
+text-transform: uppercase;
+
+color: #162542;
+
+}
+.wrap-text p{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+color: #7B8BAD;
+}
+.flex-wrap{
+    display: flex;
+    justify-content:flex-start;
+    
+}
+
+.butt{
+    width: 175px;
+    margin-right: 40px;
+    border-radius: 8px;
+    background-color:  #F16718;
+    border: none;
+    color: white;
+}
+.flex-wrap p{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+text-transform: uppercase;
+color: #7B8BAD;
+}
+
+
+.klav img{
+    width: 600px;
+    border-radius: 8px
+}
+.desctop img{
+    width: 354px;
+    /* mix-blend-mode:hard-light; */
+     opacity: 0.75;
+     mix-blend-mode: multiply;
+     border-radius: 8px;
+     filter: brightness(110%);
+
+}
+.klavi img{
+    width:500px ;
+    border-radius: 8px;
+
+}
+.wrbox{
+    width: 200px;
+    padding-top: 36px;
+}
+.klavi img{
+
+}
